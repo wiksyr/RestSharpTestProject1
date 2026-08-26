@@ -10,7 +10,7 @@ namespace RestSharpTestProject1.Tests.Put;
 public class PutCardsValidationTests : BaseTest
 {
     [Test]
-    [TestCaseSource(typeof(PutCardValidationArgumentsProvider))]
+    [TestCaseSource(typeof(CardIdValidationArgumentsProvider))]
     public void PutCardsValidationTest(CardValidationArgumentsHolder args)
     {
         var updatedCardName = "Updated Card Name " + DateTime.Now.Ticks;

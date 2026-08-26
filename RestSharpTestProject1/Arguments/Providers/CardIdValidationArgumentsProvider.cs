@@ -5,7 +5,7 @@ using System.Collections;
 
 namespace RestSharpTestProject1.Arguments.Providers;
 
-public class PutCardValidationArgumentsProvider : IEnumerable
+public class CardIdValidationArgumentsProvider : IEnumerable
 {
     public IEnumerator GetEnumerator()
     {
